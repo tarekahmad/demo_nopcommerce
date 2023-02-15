@@ -72,8 +72,6 @@ public class D01_registerStepDef {
         String actualcolor=register.succesmessage.getCssValue("color");
         actualcolor=Color.fromString(actualcolor).asHex();
         soft.assertEquals(actualcolor,"#4cb17c");
-
-
         soft.assertAll();
 
     }

@@ -6,6 +6,6 @@ Feature: F01_Register | users could register with new accounts
     And user enters name "automation"& "tester"
     And user select date of birth
     And user enters email "tests@example.com"
-    And user enters password "P@ssword" and confirms
+    And user enters password "P@ssw0rd" and confirms
     And user click register
     Then Account created
